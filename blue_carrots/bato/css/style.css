@@ -206,7 +206,8 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #F9CE00; }
+        color: #8860d0; 
+        font-weight:bold;}
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
