@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
       width: 300px; } }
   #colorlib-main-nav .colorlib-nav-toggle {
     position: absolute;
-    top: 5px;
+    top: 50px;
     right: 40px;
     padding: 20px;
     height: 44px;
@@ -309,7 +309,7 @@ header {
     header {
       padding: 2em 0; } }
   header .colorlib-navbar-brand {
-    float: left; }
+   }
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 24px;
       text-transform: uppercase;
@@ -317,8 +317,7 @@ header {
       font-family: "Playfair Display", Georgia, serif;
       font-weight: 700;
       letter-spacing: 10px;
-      display: block;
-      text-align: center; }
+      display: block; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
         text-decoration: none !important; }
       header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
@@ -447,7 +446,7 @@ header {
     @media screen and (max-width: 768px) {
       #colorlib-hero .owl-theme .owl-controls {
         left: 0; } }
-  #colorlib-hero .owl-theme .owl-controls .owl-nav [class*=owl-] {
+  /* #colorlib-hero .owl-theme .owl-controls .owl-nav [class*=owl-] {
     padding: 8px 15px;
     background: #fff;
     border: none;
@@ -470,7 +469,7 @@ header {
       background: transparent; }
     #colorlib-hero .owl-carousel .owl-controls .owl-nav .owl-next:hover i,
     #colorlib-hero .owl-carousel .owl-controls .owl-nav .owl-prev:hover i {
-      color: white; }
+      color: white; } */
 
 .about-flex {
   width: 100%;
@@ -941,7 +940,8 @@ header {
 
 .colorlib-nav-toggle {
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+}
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
     background: #000; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
@@ -1031,7 +1031,7 @@ header {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  margin-top: 0; }
+  margin-top: -2.5em; }
   @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       display: block;
