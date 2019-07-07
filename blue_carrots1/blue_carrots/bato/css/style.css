@@ -206,7 +206,8 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #F9CE00; }
+        color: #8860d0; 
+        font-weight:bold;}
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -240,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background: #F9CE00;
+    background: #8860d0;
     color: #fff;
     border: none;
     padding: 16px; }
